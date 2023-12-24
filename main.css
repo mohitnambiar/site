@@ -1,0 +1,68 @@
+/* Global Definitions */
+html {
+    font-size: 1.2em;
+}
+
+body {
+    background-color:#070714;
+    color: whitesmoke;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.5em;
+    max-width: 42em;
+    padding: 1em;
+    margin: 0 auto;
+}
+
+header {
+    padding-top: 0.6em;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    background-color:#070714;
+    padding-bottom: 0.6em;
+}
+
+main {
+    padding-top: 1em;
+}
+
+footer {
+    padding-top: 2em;
+    font-size: 0.8em;
+    color:gray;
+}
+
+a {
+    color:#00f0ff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    line-height: 1.2em;
+}
+
+/* Custom Classes and IDs */
+.site-logo {
+    text-decoration: none;
+}
+
+#nav-item {
+    padding-left: 1em;
+    font-size: 0.8em;
+    color: white;
+
+}
+
+.home-cta {
+    padding: 1em;
+    background-color: white;
+    border: none;
+    border-radius: 1em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: large;
+    text-decoration: none;
+}
+.home-cta:hover {
+    background-color: #00f0ff;
+    cursor: pointer;
+}
