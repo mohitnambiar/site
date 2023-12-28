@@ -38,6 +38,11 @@ a {
 
 h1, h2, h3, h4, h5, h6 {
     line-height: 1.2em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+    font-size: 1.8em;
 }
 
 /* Custom Classes and IDs */
@@ -50,11 +55,16 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 0.8em;
     color: white;
     text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#nav-item:hover {
+    text-decoration: underline;
 }
 
 .home-cta {
     padding: 1em;
-    background-color: white;
+    background-color: #00f0ff;
     border: none;
     border-radius: 1em;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -63,6 +73,11 @@ h1, h2, h3, h4, h5, h6 {
     text-decoration: none;
 }
 .home-cta:hover {
-    background-color: #00f0ff;
+    background-color: white;
     cursor: pointer;
+}
+
+.understated {
+    font-size: small;
+    color: lightgrey;
 }
