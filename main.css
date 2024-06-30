@@ -4,10 +4,10 @@ html {
 }
 
 body {
-    background-color:#070714;
+    background-color:#070710;
     color: whitesmoke;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    line-height: 1.5em;
+    line-height: 1.6em;
     max-width: 42em;
     padding: 1em;
     margin: 0 auto;
@@ -15,11 +15,12 @@ body {
 
 header {
     padding-top: 0.6em;
-    position: -webkit-sticky; /* Safari */
-    position: sticky;
+    /* position: -webkit-sticky; /* Safari */
+    /*position: sticky;*/
     top: 0;
-    background-color:#070714;
+    background: color #070710;
     padding-bottom: 0.6em;
+    z-index: 999;
 }
 
 main {
@@ -42,22 +43,31 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Custom Classes and IDs */
+
+/* Header Style */
+#masthead {
+    background: color #070710;
+}
+
 .site-logo {
     text-decoration: none;
+    background: color #070710;
 }
 
 #nav-item {
     padding-left: 1em;
     font-size: 0.8em;
-    color: white;
+    color: whitesmoke;
     text-decoration: none;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    background: color #070710;
 }
 
 #nav-item:hover {
     text-decoration: underline;
 }
 
+/* Home CTA Button Style */
 .home-cta {
     padding: 1em;
     background-color: #00f0ff;
@@ -69,11 +79,41 @@ h1, h2, h3, h4, h5, h6 {
     text-decoration: none;
 }
 .home-cta:hover {
-    background-color: white;
+    background-color: whitesmoke;
     cursor: pointer;
 }
 
+/* Sitewide Font and Link Styles */
 .understated {
     font-size: small;
     color: lightgrey;
+}
+
+.backlink {
+    font-size: small;
+    color: lightgrey;
+    text-decoration: none;
+}
+
+.backlink:hover {
+    text-decoration: underline;
+}
+
+.postlink {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.postlink:hover {
+    color: #00f0ff;
+    text-decoration: underline;
+}
+
+.inactive {
+    color: rgb(63, 63, 63);
+}
+
+.bq {
+    padding-left: 1em;
+    box-shadow: inset .1em 0 0 0 #242424;
 }
